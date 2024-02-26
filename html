@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+  </head>
+  <body>
+  
+<header>
+    <!-- Header contains Navigation bar with the internal links to all the pages and Logo image on the far right, this need to be a black background -->
+     <nav>
+       <table>
+          <colgroup>
+             <col width="10%">
+             <col width="10%">
+             <col width="10%">
+             <col width="10%">
+             <col width="10%">
+             <col width="10%">
+             <col width="10%">
+          </colgroup>
+          <tr>
+             <th><a href="#home">Home</a></th>
+             <th><a href="#schedule">Schedule</a></th>
+             <th><a href="#program">Programs</a></th>
+             <th><a href="#events">Events</a></th>
+             <th><a href="#news">News</a></th>
+             <th><a href="#merch">Merch</a></th>
+             <th><a href="#contact">Contact US</a></th>
+             <th><img src="LOGO IMAGE PATH INSERT HERE"></th>
+          </tr>
+       </table>
+     </nav>
+</header>
+
+<main>
+  <!-- Main content below contains all the content for the website  -->
+    <section id="home">
+    <!-- Home section contents a carousel of 3 banner images. -->
+         <div class="carousel-container">
+          <div class="carousel-slide">
+           <img src="image1.jpg" alt="First Image">
+           <img src="image2.jpg" alt="Second Image">
+           <img src="image3.jpg" alt="Third Image">
+          </div>
+         </div>
+    </section>
+       
+    <section id="schedule">
+     <!-- Schedule needs to be a table that will contains 3 rows, 8 columns including head -->
+       <h1>Weekly Schedule</h1>
+         <table>
+            <thead>
+              <tr>
+                 <th>Days</th>
+                 <th>Time</th>
+                 <th>Schedule</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+              <tr>
+                 <td>Monday</td>
+                 <td>08:00 - 16:00</td>
+                 <td>Senior Practice</td>
+              </tr>
+            </tbody>
+         </table>
+       </section>
+  
+    <section id= Program>
+         <!-- Program needs to be 2 body of text with images displaying on the half of the page -->
+      <h1>Programs</h1>
+      <h2>Season Kick-off Tournament</h1>
+      <P class="left-aligned">Join us for the electrifying kickoff of the basketball season at our Grand Slam Hoops Classic Tournament! This high-energy event brings together top-tier teams not only from our esteemed club but also from neighboring communities, promising an intense competition that will set the tone for the entire season.</P>
+      <P class="left-aligned">Don't miss the chance to be a part of this basketball extravaganza! Whether you're a player, a dedicated fan, or just someone who loves the excitement of the game, the Grand Slam Hoops Classic is an event you won't want to miss. Mark your calendars and get ready for a slam-dunk start to an unforgettable season!</P>
+      <img src="image1.jpg" alt="First Program image">
+      <h2>Basketball Camps</h1>
+      <P class="left-aligned">Elevate Elite Hoops Club is thrilled to announce the Summer Slam Basketball Camp! 🏀✨ Join us during the upcoming summer break for an action-packed week of skill development, teamwork, and hoops excitement. Our experienced coaching staff is dedicated to providing a fun and educational experience for young players of all skill levels.</P>
+      <P class="left-aligned">Don't miss out on this fantastic opportunity to enhance your basketball skills in a supportive and exciting environment! Spaces are limited, so register now to secure your spot at the Elevate Elite Hoops Club Summer Slam Basketball Camp. Let's make this summer unforgettable on the courts!</P>
+      <img src="image1.jpg" alt="Second Program image">
+      
+    <section id= events>  
+           <!-- Events needs to be a table as well that has 2 rows and 4 columns including headers -->
+      <h1>Upcoming Events</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Dates</th>
+              <th>Events Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+          
+    <section id= news>  
+           <!-- News is devided into 2 parts, first part is a Iframe video with a discription and second part contains a video that get uploaded to the server -->
+      <h1>News</h1>
+        <iframe src="https:/www.youtube.com/embed/7ahgosTZJHg"> </iframe>
+        <br> 
+        <video width="320" height="240" autoplay muted>
+          <source src="mymovie.mp4" type="video/mp4">
+          <source src="mymovie.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+
+    <section id= merch>  
+           <!-- Merch needs to consist of product that user can view to be made aware of  that are available to be sold at the club-->
+      <h1>Merch</h1>
+        <figure>
+          <img src="images/dog.png" alt="Merch">
+            <figcaption>Merch</figcaption>
+        </figure>
+
+    <section id= contactus>  
+           <!-- Contact Us is a Form that a user can fill with there details to reach out to the club to enquire -->
+      <h1>Contact Us</h1>
+        <div class="container">
+        <h2>Contact Us</h2>
+          <form action="submit-form-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><BR></BR>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><BR></BR>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><BR></BR>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+   </main>
+
+   <footer class="footer">
+     <!-- Footer need to be there for the users to be aware of Club details -->
+       <div class="contact-info">
+           <p>Elite Hoops Club</p>
+           <p>15 Burchall Drive</p>
+           <p>Scoresby VIC-3179</p>
+           <p>Phone No. - +61 444444444</p>
+           <p>email - info@Elitehc.com.au</p>
+       </div>
+       <div class="policies">
+           <a href="privacy-statement-url">Privacy Statement</a>
+           <a href="terms-and-conditions-url">Terms and Conditions</a>
+       </div>
+   </footer>
+  </body>
+</html>
